@@ -93,9 +93,9 @@ double potencia(double val, double exp)
 	int i;
 	double total;
 	
-	for(i = 0; i < exponente; i++)
+	for(i = 0; i < exp; i++)
 	{
-		total += multiplcar(base,base);
+		total += multiplicacion(val,exp);
 	}
 	return total;
 }
