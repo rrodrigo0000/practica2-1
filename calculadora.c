@@ -88,6 +88,9 @@ int main(int argc, char **argv)
 }
 
 
+double suma(double a, double b){
+	return a+b;
+}
 
 double multiplicacion(double a, double b){
 	return a*b;
@@ -96,4 +99,3 @@ double multiplicacion(double a, double b){
 double division(double a, double b){
 	return a / b;	
 }
-
