@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int resta(int a, int b){
+	int resultado = 0;
+	resultado = a - b;
+	return resultado;
+}
 
 int multiplicacion(int a, int b){
 	int resultado = 0;
@@ -43,7 +48,7 @@ int main(int argc, char **argv)
 				
 				break;
 			case 2:
-				result = a - b;
+				result = resta(a, b);
 				break;
 			case 3:
 				result = multiplicacion(a,b);
