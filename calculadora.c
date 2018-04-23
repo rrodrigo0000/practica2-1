@@ -88,6 +88,12 @@ int main(int argc, char **argv)
 }
 
 
+
 double multiplicacion(double a, double b){
 	return a*b;
 }
+
+double division(double a, double b){
+	return a / b;	
+}
+
