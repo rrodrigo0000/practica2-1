@@ -87,13 +87,15 @@ int main(int argc, char **argv)
 	return 0;
 }
 
-
-
-double multiplicacion(double a, double b){
-	return a*b;
-}
-
-double division(double a, double b){
-	return a / b;	
+double potencia(double val, double exp)
+{
+	int i;
+	double total;
+	
+	for(i = 0; i < exponente; i++)
+	{
+		total += multiplcar(base,base);
+	}
+	return total;
 }
 
