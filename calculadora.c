@@ -87,3 +87,7 @@ int main(int argc, char **argv)
 	return 0;
 }
 
+
+double multiplicacion(double a, double b){
+	return a*b;
+}
