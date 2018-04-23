@@ -87,7 +87,6 @@ int main(int argc, char **argv)
 	return 0;
 }
 
-double division(double a, double b){
-	return a / b;	
+double suma(double a, double b){
+	return a+b;
 }
-
