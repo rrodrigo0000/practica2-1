@@ -88,6 +88,12 @@ int main(int argc, char **argv)
 }
 
 
+double resta(double a, double b){
+ double resultado = 0;
+ resultado = a - b;
+ return resultado;
+}
+
 double suma(double a, double b){
 	return a+b;
 }
