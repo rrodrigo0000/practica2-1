@@ -6,6 +6,7 @@ int resta(int a, int b){
 	return resultado;
 }
 
+
 int multiplicacion(int a, int b){
 	int resultado = 0;
 	int i;
@@ -14,6 +15,21 @@ int multiplicacion(int a, int b){
 	}
 	return resultado;
 }
+
+int potencia(int base, int exponente)
+{
+	int i, total;
+	
+	for(i = 0; i < exponente; i++)
+	{
+		total += multiplcar(base,base);
+	}
+	return total;
+}
+
+
+int raiz(int num);
+int suma(int num1, int num2);
 
 int main(int argc, char **argv)
 {
@@ -44,23 +60,25 @@ int main(int argc, char **argv)
 		// Operar
 		switch( option ) {
 			case 1:
-				result=a+b;
+				result=suma(a,b);
 				
 				break;
 			case 2:
+
 				result = resta(a, b);
+
 				break;
 			case 3:
-				result = multiplicacion(a,b);
+				result = 0;
 				break;
 			case 4:
 				result = 0;
 				break;
 			case 5:
-				result = 0;
+				result = raiz(a);
 				break;
 			case 6:
-				result = 0;
+				result = potencia(a,b);
 				break;
 			default:
 				result = 0;
@@ -78,4 +96,15 @@ int main(int argc, char **argv)
 	// Salir sin error
 	return 0;
 }
+int suma(int num1, int num2){
 
+return num1+num2;
+}
+int raiz(int num){
+resu = 1;
+while(multiplicacion(resu,resu)<=num)
+	resu+=1;
+
+return resu-1;
+
+}
