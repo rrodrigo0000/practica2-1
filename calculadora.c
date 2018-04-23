@@ -42,11 +42,11 @@ main()
 
 		printf("\n         º       4.- Division                                        º");
 
-		printf("\n         º       3.- Raiz Cuadrada                                   º");
+		printf("\n         º       5.- Raiz Cuadrada                                   º");
 
-		printf("\n         º                                                           º");
+		printf("\n         º       6.- Potencia                                        º");
 
-		printf("\n         º                        7.- Salir                          º");
+		printf("\n         º       7.- Salir                                           º");
 
 		printf("\n         ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼");
 
