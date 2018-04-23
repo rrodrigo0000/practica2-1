@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+
+int multiplicacion(int a, int b){
+	int resultado = 0;
+	int i;
+	for (i = 0; i < b; i++){
+		i = i + a;
+	}
+	return resultado;
+}
+
 int main(int argc, char **argv)
 {
 	int a, b, result, option = -1;
@@ -36,7 +46,7 @@ int main(int argc, char **argv)
 				result = a - b;
 				break;
 			case 3:
-				result = 0;
+				result = multiplicacion(a,b);
 				break;
 			case 4:
 				result = 0;
