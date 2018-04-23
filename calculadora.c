@@ -90,7 +90,7 @@ main()
 
 			scanf("%i",&b);
 
-			
+			resultado = a - b; 
 
 			printf("\n         La RESTA de %i - %i es igual a %i",a,b,resultado);
 
