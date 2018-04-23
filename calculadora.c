@@ -1,7 +1,31 @@
 #include <stdio.h>
 
+
+
+int multiplicacion(int a, int b){
+	int resultado = 0;
+	int i;
+	for (i = 0; i < b; i++){
+		i = i + a;
+	}
+	return resultado;
+}
+
+int potencia(int base, int exponente)
+{
+	int i, total;
+	
+	for(i = 0; i < exponente; i++)
+	{
+		total += multiplcar(base,base);
+	}
+	return total;
+}
+
+
 int raiz(int num);
 int suma(int num1, int num2);
+
 int main(int argc, char **argv)
 {
 	int a, b, result, option = -1;
@@ -47,7 +71,7 @@ int main(int argc, char **argv)
 				result = raiz(a);
 				break;
 			case 6:
-				result = 0;
+				result = potencia(a,b);
 				break;
 			default:
 				result = 0;
