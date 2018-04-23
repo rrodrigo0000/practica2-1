@@ -87,11 +87,15 @@ int main(int argc, char **argv)
 	return 0;
 }
 
-double raiz(double a){
-	double resu = 1;
-	while(multiplicacion(resu,resu)<=a)
-		resu+=1;
 
-	return resu-1;
+
+double multiplicacion(double a, double b){
+	return a*b;
 }
 
+double division(double a, double b){
+	return a / b;	
+}
+double conversor(double euros) {
+	return euros*166.386;
+}
