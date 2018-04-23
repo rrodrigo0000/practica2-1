@@ -123,4 +123,11 @@ double suma(double a, double b){
 	return a+b;
 }
 
+double raiz(double a){
+resu = 1;
+while(multiplicacion(resu,resu)<=a)
+	resu+=1;
+
+return resu-1;
+}
 
