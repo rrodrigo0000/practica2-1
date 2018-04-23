@@ -87,33 +87,11 @@ int main(int argc, char **argv)
 	return 0;
 }
 
+double raiz(double a){
+	double resu = 1;
+	while(multiplicacion(resu,resu)<=a)
+		resu+=1;
 
-double potencia(double val, double exp)
-{
-	int i;
-	double total;
-	
-	for(i = 0; i < exponente; i++)
-	{
-		total += multiplcar(base,base);
-	}
-	return total;
+	return resu-1;
 }
 
-double resta(double a, double b){
- double resultado = 0;
- resultado = a - b;
- return resultado;
-}
-
-double suma(double a, double b){
-	return a+b;
-}
-
-double multiplicacion(double a, double b){
-	return a*b;
-}
-
-double division(double a, double b){
-	return a / b;	
-}
