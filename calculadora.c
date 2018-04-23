@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-int resta(int a, int b){
-	int resultado = 0;
-	resultado = a - b;
-	return resultado;
-}
 
 
 int multiplicacion(int a, int b){
@@ -64,9 +59,7 @@ int main(int argc, char **argv)
 				
 				break;
 			case 2:
-
-				result = resta(a, b);
-
+				result = 0;
 				break;
 			case 3:
 				result = 0;
@@ -96,10 +89,10 @@ int main(int argc, char **argv)
 	// Salir sin error
 	return 0;
 }
-int suma(int num1, int num2){
-
-return num1+num2;
+double suma(double num1, double num2){
+	return num1+num2;
 }
+
 int raiz(int num){
 resu = 1;
 while(multiplicacion(resu,resu)<=num)
