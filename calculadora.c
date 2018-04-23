@@ -3,6 +3,7 @@
 int main(int argc, char **argv)
 {
 	int a, b, result, option = -1;
+	
 	// Mientras no se termina
 	while( 1 ) {
 		
