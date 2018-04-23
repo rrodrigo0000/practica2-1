@@ -29,7 +29,8 @@ int main(int argc, char **argv)
 		// Operar
 		switch( option ) {
 			case 1:
-				result = 0;
+				result=a+b;
+				
 				break;
 			case 2:
 				result = 0;
