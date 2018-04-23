@@ -1,15 +1,7 @@
 #include <stdio.h>
 
-
-int multiplicacion(int a, int b){
-	int resultado = 0;
-	int i;
-	for (i = 0; i < b; i++){
-		i = i + a;
-	}
-	return resultado;
-}
-
+int raiz(int num);
+int suma(int num1, int num2);
 int main(int argc, char **argv)
 {
 	int a, b, result, option = -1;
@@ -39,20 +31,20 @@ int main(int argc, char **argv)
 		// Operar
 		switch( option ) {
 			case 1:
-				result=a+b;
+				result=suma(a,b);
 				
 				break;
 			case 2:
-				result = a - b;
+				result = 0;
 				break;
 			case 3:
-				result = multiplicacion(a,b);
+				result = 0;
 				break;
 			case 4:
 				result = 0;
 				break;
 			case 5:
-				result = 0;
+				result = raiz(a);
 				break;
 			case 6:
 				result = 0;
@@ -73,4 +65,15 @@ int main(int argc, char **argv)
 	// Salir sin error
 	return 0;
 }
+int suma(int num1, int num2){
 
+return num1+num2;
+}
+int raiz(int num){
+resu = 1;
+while(multiplicacion(resu,resu)<=num)
+	resu+=1;
+
+return resu-1;
+
+}
