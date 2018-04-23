@@ -10,6 +10,17 @@ int multiplicacion(int a, int b){
 	return resultado;
 }
 
+int potencia(int base, int exponente)
+{
+	int i, total;
+	
+	for(i = 0; i < exponente; i++)
+	{
+		total += multiplcar(base,base);
+	}
+	return total;
+}
+
 int main(int argc, char **argv)
 {
 	int a, b, result, option = -1;
@@ -55,7 +66,7 @@ int main(int argc, char **argv)
 				result = 0;
 				break;
 			case 6:
-				result = 0;
+				result = potencia(a,b);
 				break;
 			default:
 				result = 0;
