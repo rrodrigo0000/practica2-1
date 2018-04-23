@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 				
 				break;
 			case 2:
-				result = 0;
+				result = a - b;
 				break;
 			case 3:
 				result = 0;
